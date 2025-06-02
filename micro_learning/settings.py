@@ -27,16 +27,9 @@ SECRET_KEY = 'django-insecure-l6kn=7rgguu$dr1$9dga+zcyfs4pluj764$3*hpx9h#wkwv8-c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '.onrender.com',
-    'https://micro-learning-io0b.onrender.com',
-    'http://micro-learning-io0b.onrender.com',
-    'micro-learning-io0b.onrender.com',
-    '0.0.0.0',
-    '52.41.36.82',
-    '54.191.253.12',
-    '44.226.122.3',
-]
+ALLOWED_HOSTS = [*]
+
+CORS_ALLOW_ALL_ORIGINS = True
 
 PORT = os.environ.get('PORT', 8000)
 
