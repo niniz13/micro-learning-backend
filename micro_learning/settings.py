@@ -28,14 +28,7 @@ SECRET_KEY = 'django-insecure-l6kn=7rgguu$dr1$9dga+zcyfs4pluj764$3*hpx9h#wkwv8-c
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '.onrender.com',
-    'https://micro-learning-backend-yp30.onrender.com/',
-    'http://micro-learning-backend-yp30.onrender.com/',
-    'micro-learning-backend-yp30.onrender.com',
-    '0.0.0.0',
-    '18.156.158.53',
-    '18.156.42.200',
-    '52.59.103.54',
+    '*',
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
