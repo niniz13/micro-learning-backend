@@ -33,7 +33,7 @@ ALLOWED_HOSTS = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-PORT = os.environ.get('PORT', 8000)
+PORT = 10000
 
 # Application definition
 
