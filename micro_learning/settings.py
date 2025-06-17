@@ -33,6 +33,9 @@ ALLOWED_HOSTS = [
     'localhost',
 ]
 
+print("ALLOWED_HOSTS:", ALLOWED_HOSTS)
+
+
 CORS_ALLOW_ALL_ORIGINS = True
 
 PORT = 10000
