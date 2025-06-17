@@ -14,6 +14,6 @@ COPY . .
 
 RUN chmod +x entrypoint.sh
 
-EXPOSE 8080  # adapté à Railway
+EXPOSE 8080
 
 ENTRYPOINT ["sh", "entrypoint.sh"]
