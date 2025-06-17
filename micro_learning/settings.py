@@ -33,7 +33,7 @@ ALLOWED_HOSTS = [
     'localhost',
 ]
 
-print("ALLOWED_HOSTS:", ALLOWED_HOSTS)
+print("✅ ALLOWED_HOSTS:", ALLOWED_HOSTS)
 
 
 CORS_ALLOW_ALL_ORIGINS = True
@@ -147,11 +147,6 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',
     ],
 }
-
-ALLOWED_HOSTS = [
-    'localhost', 
-    '127.0.0.1',
-]
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:5173',
