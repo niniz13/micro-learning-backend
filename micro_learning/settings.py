@@ -66,8 +66,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'middleware.AllowAllHostsMiddleware'
 ]
+
+MIDDLEWARE.insert(0, 'micro_learning.middleware.AllowAllHostsMiddleware')
 
 ROOT_URLCONF = 'micro_learning.urls'
 
