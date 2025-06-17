@@ -38,6 +38,8 @@ print("ALLOWED_HOSTS:", ALLOWED_HOSTS)
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+USE_X_FORWARDED_HOST = True
+
 PORT = 10000
 
 # Application definition
@@ -64,6 +66,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'micro_learning.settings.AllowAllHostsMiddleware'
 ]
 
 ROOT_URLCONF = 'micro_learning.urls'
