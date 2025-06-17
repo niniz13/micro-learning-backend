@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-l6kn=7rgguu$dr1$9dga+zcyfs4pluj764$3*hpx9h#wkwv8-c
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'micro-learning-backend-production.up.railway.app',
+    'micro-learning-backend-production-c994.up.railway.app',
     '127.0.0.1',
     'localhost',
 ]
