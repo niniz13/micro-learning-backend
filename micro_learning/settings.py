@@ -68,8 +68,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-MIDDLEWARE.insert(0, 'micro_learning.middleware.AllowAllHostsMiddleware')
-
 ROOT_URLCONF = 'micro_learning.urls'
 
 TEMPLATES = [
